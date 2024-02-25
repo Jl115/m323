@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+p {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  width: 90%;
+  border-bottom: 1px solid gray;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 5em;
+}
+
+.navigation {
+  width: 33%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+
+  section {
+    width: 90%;
+    height: 13em;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  .footer-container {
+    width: 90%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    .footer-navigation {
+      width: 33%;
+      margin: 0;
+      li {
+        margin: 0;
+        display: flex;
+      }
+      .cofee {
+        text-align: center;
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+.sidebar-nav {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+  padding: 0;
+
+  margin: 0;
+  li {
+    height: 20px;
+  }
+}
+.table ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.table ul {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.article-container {
+  height: 13em;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.article-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.article {
+}
