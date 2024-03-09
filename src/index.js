@@ -4,6 +4,10 @@ import createElement from "virtual-dom/create-element";
 
 // allows using html tags as functions in javascript
 const { div, button, p, h1 } = hh(h);
+const {addition, subtraction, multiply, division} = require("./math");
+test("addition", () => {
+  expect(addition(1, 2)).toBe(3);
+});
 
 // A combination of Tailwind classes which represent a (more or less nice) button style
 const btnStyle =
