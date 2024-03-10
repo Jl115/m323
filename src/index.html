@@ -1,33 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./tailwind.css" />
-    <title>Document</title>
+    <title>Modul 323 - Counter App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="w-screen h-screen">
-    <header class="h-24 w-screen flex items-center justify-center">
-      <nav class="flex flex-col w-11/12 h-full items-center justify-center">
-        <ul class="flex flex-row w-full border-b">
-          <li class="font-sans text-2xl">Modul 323</li>
-          <li class="font-sans text-2xl">-</li>
-          <li class="font-sans text-2xl">My Counter</li>
-        </ul>
-      </nav>
+  <body class="h-screen w-screen">
+    <header class="p-4">
+      <div
+        class="max-w-2xl m-auto flex items-center gap-4 border-b-gray-200 border-b pb-4"
+      >
+        <img src="logo.png" alt="Logo" class="w-10" />
+        <span class="font-mono font-bold">Modul 323 - My Counter</span>
+      </div>
     </header>
-    <main class="h-full flex justify-center items-center flex-col">
-      <div class="flex flex-row">
-        <h1>Count:</h1>
-        <h1 id="counter">0</h1>
+    <main
+      class="max-w-lg m-auto py-4 flex flex-col items-center gap-4"
+      id="app"
+    ></main>
+    <footer class="p-4">
+      <div class="max-w-2xl m-auto text-center border-t-gray-200 border-t pt-4">
+        Counting stuff since 1291 🧮
       </div>
-      <div class="flex flex-row gap-7">
-        <button id="increase">increase +</button>
-        <button id="decrease">decrease -</button>
-      </div>
-    </main>
-
-    <script src="./index.js"></script>
+    </footer>
+    <script src="bundle.js"></script>
   </body>
 </html>
