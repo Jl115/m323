@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1710067001988" clover="3.2.0">
+  <project timestamp="1710067001988" name="All files">
+    <metrics statements="17" coveredstatements="11" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="1" elements="24" coveredelements="12" complexity="0" loc="17" ncloc="17" packages="1" files="3" classes="3"/>
+    <file name="model.js" path="/Users/jldev/Projects/1-school/sem-4/m-323/m323/src/model.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+    </file>
+    <file name="update.js" path="/Users/jldev/Projects/1-school/sem-4/m-323/m323/src/update.js">
+      <metrics statements="6" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="7" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="view.js" path="/Users/jldev/Projects/1-school/sem-4/m-323/m323/src/view.js">
+      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
