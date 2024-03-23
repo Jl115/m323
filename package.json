@@ -8,7 +8,7 @@
     "publish": "yarn build && cd dist && surge . example-modul323.surge.sh"
   },
   "browserslist": "> 0.25%, not dead",
-  "author": "Sebastian Keable",
+  "author": "Joel Leimbacher",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.2",
