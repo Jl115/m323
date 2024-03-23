@@ -1,5 +1,7 @@
-# m323
+# m323 Weather app
 
-M323 Functional programming
+## Environment Variables
 
-# for every exam one Branch
+To run this project, you will need to add the following environment variables to your environment.js file
+
+API_KEY = `YOUR_API_KEY`
